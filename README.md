@@ -1,9 +1,13 @@
 # AWS Blue Team Lab
 
-This repository contains CSV logs exported from my AWS Blue Team lab.
+This repo contains evidence from my AWS Blue Team lab:
+- CloudTrail CSV export
+- Screenshot of AccessDenied event
+- Security report (see report.pdf)
 
-- EC2 instance deployed and accessed via SSH
-- S3 bucket created and secured
-- CloudTrail logging enabled and encrypted with KMS
-- CloudWatch monitoring active
-- This CSV demonstrates API activity for portfolio/interview purposes
+Lab demonstrates steps:
+1. Deploy EC2 (terminated for cost savings)
+2. Enable CloudTrail & CloudWatch
+3. Simulate suspicious activity
+4. Detect unauthorized access
+5. Harden environment
