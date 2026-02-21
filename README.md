@@ -11,3 +11,4 @@ Lab demonstrates steps:
 3. Simulate suspicious activity
 4. Detect unauthorized access
 5. Harden environment
+- Security Report: AWS-Blue-Team-Lab-Report.pdf
